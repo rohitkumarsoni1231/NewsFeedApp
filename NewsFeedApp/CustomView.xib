@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="75"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="moZ-vG-F4s">
+                    <rect key="frame" x="0.0" y="0.0" width="400" height="75"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Amy-XN-Ayj">
+                            <rect key="frame" x="10" y="10" width="42" height="55"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCn-xt-Roa">
+                            <rect key="frame" x="183" y="29.333333333333336" width="34.333333333333343" height="16.333333333333336"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYm-b8-4T5">
+                            <rect key="frame" x="350.66666666666669" y="28.333333333333329" width="39.333333333333314" height="18.666666666666671"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="BYm-b8-4T5" secondAttribute="trailing" constant="10" id="8o8-Xj-1IE"/>
+                        <constraint firstItem="BYm-b8-4T5" firstAttribute="centerY" secondItem="RCn-xt-Roa" secondAttribute="centerY" id="Djk-YS-Wil"/>
+                        <constraint firstAttribute="bottom" secondItem="Amy-XN-Ayj" secondAttribute="bottom" constant="10" id="GwD-fq-ifY"/>
+                        <constraint firstItem="Amy-XN-Ayj" firstAttribute="top" secondItem="moZ-vG-F4s" secondAttribute="top" constant="10" id="Syi-EG-dtN"/>
+                        <constraint firstItem="RCn-xt-Roa" firstAttribute="centerX" secondItem="moZ-vG-F4s" secondAttribute="centerX" id="b7d-ck-Hoh"/>
+                        <constraint firstItem="RCn-xt-Roa" firstAttribute="centerY" secondItem="moZ-vG-F4s" secondAttribute="centerY" id="f1n-NW-wXR"/>
+                        <constraint firstItem="Amy-XN-Ayj" firstAttribute="leading" secondItem="moZ-vG-F4s" secondAttribute="leading" constant="10" id="lWv-ZV-9fN"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="moZ-vG-F4s" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ewX-9y-fzk"/>
+                <constraint firstItem="moZ-vG-F4s" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hPW-Rc-3Xl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="moZ-vG-F4s" secondAttribute="trailing" id="wDv-4l-fmN"/>
+                <constraint firstAttribute="bottom" secondItem="moZ-vG-F4s" secondAttribute="bottom" id="wvc-VE-Bci"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="93.129770992366403" y="260.91549295774649"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
